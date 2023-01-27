@@ -56,6 +56,7 @@ print(x)
 (i)
 ![image](https://user-images.githubusercontent.com/121395849/215155585-10cb3786-5324-4442-89f9-9cbf69038512.png)
 (ii)
+
 ![image](https://user-images.githubusercontent.com/121395849/215155719-df4d6604-8b2c-4791-bc50-84a35153d8bd.png)
 
 
