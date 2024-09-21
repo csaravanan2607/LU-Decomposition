@@ -1,4 +1,5 @@
-# LU Decomposition 
+# DATE:
+# EXP - 05 LU Decomposition 
 
 ## AIM:
 To write a program to find the LU Decomposition of a matrix.
@@ -24,11 +25,12 @@ End the program
 ## Program:
 (i) To find the L and U matrix
 ```
-/*
+
 Program to find the L and U matrix.
-Developed by: C Saravanan
-RegisterNumber: 22008175
-*/
+Developed by: Saravanan C
+RegisterNumber: 212222110041
+
+```
 ```
 import numpy as np
 from scipy.linalg import lu
@@ -36,13 +38,15 @@ A= np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
+```
 (ii) To find the LU Decomposition of a matrix
 ```
-/*
+
 Program to find the LU Decomposition of a matrix.
-Developed by: C Saravanan
-RegisterNumber:  22008175
-*/
+Developed by: Saravanan C
+RegisterNumber:  212222110041
+
+```
 ```
 import numpy as np
 from scipy.linalg  import lu_factor,lu_solve
@@ -51,16 +55,14 @@ b=np.array(eval(input()))
 lu,piv=lu_factor(a)
 x=lu_solve((lu,piv),b)
 print(x)
-
+```
 ## Output:
 (i)
-![image](https://user-images.githubusercontent.com/121395849/215155585-10cb3786-5324-4442-89f9-9cbf69038512.png)
+![Ex-05 CR  LU Decomposition 1](https://github.com/user-attachments/assets/0ac0192e-c874-401d-b624-e62ea3ae1f80)
+
 (ii)
 
-![image](https://user-images.githubusercontent.com/121395849/215155719-df4d6604-8b2c-4791-bc50-84a35153d8bd.png)
-
-
-
+![Ex-05 CR LU Decomposition 2](https://github.com/user-attachments/assets/5953af9f-da9b-46b6-a8d7-67592147a783)
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
